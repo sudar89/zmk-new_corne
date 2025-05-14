@@ -67,10 +67,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp LEFT_BRACKET   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                                &mmv MOVE_UP                     &kp PAGE_UP    &kp PAGE_UP     &kp UP_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSPC
-&trans  &kp RIGHT_BRACKET  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &bt BT_SEL 3                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT         &kp END            &kp PG_UP
-&trans  &kp BACKSLASH      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp C_MUTE                    &mmv MOVE_DOWN                   &kp PAGE_DOWN  &kp PAGE_DOWN   &kp C_VOL_DN  &kp C_VOL_DN      &kp K_MUTE         &kp PG_DN
-                                         &kp NUMBER_0  &kp DOT       &trans                                                                       &kp INS        &kp DEL         &trans
+&bt BT_NXT    &kp LEFT_BRACKET   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                                &mmv MOVE_UP                     &kp PAGE_UP    &kp PAGE_UP     &kp UP_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSPC
+&bt BT_PRV    &kp RIGHT_BRACKET  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT         &kp END            &kp PG_UP
+&bt BT_SEL 0  &kp BACKSLASH      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp C_MUTE                    &mmv MOVE_DOWN                   &kp PAGE_DOWN  &kp PAGE_DOWN   &kp C_VOL_DN  &kp C_VOL_DN      &kp K_MUTE         &kp PG_DN
+                                               &kp NUMBER_0  &kp DOT       &trans                                                                       &kp INS        &kp DEL         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -79,10 +79,10 @@
         layer_2 {
             display-name = "symbol";
             bindings = <
-&trans  &kp LS(LEFT_BRACKET)   &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)                                &mmv MOVE_UP                     &kp PAGE_UP    &kp PAGE_UP     &kp UP_ARROW  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp BSPC
-&trans  &kp LS(RIGHT_BRACKET)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &bt BT_SEL 3                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT             &kp END                &kp PG_UP
-&trans  &kp LS(BACKSLASH)      &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(EQUAL)     &kp C_MUTE                    &mmv MOVE_DOWN                   &kp PAGE_DOWN  &kp PAGE_DOWN   &kp C_VOL_DN  &kp C_VOL_DN          &kp K_MUTE             &kp PG_DN
-                                                 &kp NUMBER_0      &kp DOT           &trans                                                                           &kp INS        &kp DEL         &trans
+&bt BT_NXT  &kp LS(LEFT_BRACKET)   &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)                                &mmv MOVE_UP                     &kp PAGE_UP    &kp PAGE_UP     &kp UP_ARROW  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp BSPC
+&bt BT_PRV  &kp LS(RIGHT_BRACKET)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp LS(MINUS)                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT             &kp END                &kp PG_UP
+&bt BT_CLR  &kp LS(BACKSLASH)      &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(EQUAL)     &kp C_MUTE                    &mmv MOVE_DOWN                   &kp PAGE_DOWN  &kp PAGE_DOWN   &kp C_VOL_DN  &kp C_VOL_DN          &kp K_MUTE             &kp PG_DN
+                                                     &kp NUMBER_0      &kp DOT           &trans                                                                           &kp INS        &kp DEL         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
