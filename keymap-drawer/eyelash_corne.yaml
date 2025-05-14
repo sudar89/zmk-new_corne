@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-esc$$', h: Fn}
-  - {t: '$$mdi:keyboard-space$$', h: mouse}
+  - {t: '$$mdi:keyboard-esc$$', h: mouse}
+  - {t: '$$mdi:keyboard-space$$', h: symbol}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - mouse
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fn}
+  - symbol
+  - {t: '$$mdi:backspace-reverse-outline$$', h: mouse}
   NUMBER:
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '[', s: '{'}
@@ -142,10 +142,10 @@ layers:
   - MUTE
   - PG DN
   - '0'
-  - {t: ., s: '>'}
+  - {t: ., s: '>', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   mouse:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,12 +190,12 @@ layers:
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
   - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:mouse-right-click-outline$$', type: held alternate}
-  - '&mkp MB3'
+  - $$mdi:mouse-right-click-outline$$
+  - {t: '&mkp MB3', type: held alternate}
   Fn:
   - '&studio_unlock'
   - F1
@@ -239,9 +239,9 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - SCROLLLOCK
   - PAUSE BREAK
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
