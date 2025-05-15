@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-esc$$', h: mouse}
-  - {t: '$$mdi:keyboard-space$$', h: symbol}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - symbol
+  - {t: '$$mdi:keyboard-space$$', h: symbol}
+  - {t: '$$mdi:keyboard-return$$', h: symbol}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: NUMBER}
   - {t: '$$mdi:backspace-reverse-outline$$', h: mouse}
   NUMBER:
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
@@ -93,10 +93,10 @@ layers:
   - MUTE
   - PG DN
   - '0'
-  - {t: ., s: '>'}
-  - {type: held}
-  - {t: INS, type: held alternate}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: ., s: '>', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - INS
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   symbol:
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
@@ -142,10 +142,10 @@ layers:
   - MUTE
   - PG DN
   - '0'
-  - {t: ., s: '>', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - INS
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - {t: ., s: '>'}
+  - {type: held}
+  - {t: INS, type: held alternate}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   mouse:
   - {t: '$$mdi:transfer$$', type: trans}
