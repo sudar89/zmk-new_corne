@@ -20,9 +20,9 @@
 };
 
 &mt {
-    tapping-term-ms = <250>; // This is the value already set by default
+    // tapping-term-ms = <250>; // This is the value already set by default
     flavor = "tap-preferred";
-    quick-tap-ms = <170>; // This is the value already set by default
+    // quick-tap-ms = <170>; // This is the value already set by default
 };
 
 &mmv {
