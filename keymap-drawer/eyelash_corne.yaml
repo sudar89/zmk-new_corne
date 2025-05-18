@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - {t: '$$mdi:keyboard-esc$$', s: '`'}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-caps$$', h: NUMBER}
   - {t: '$$mdi:backspace-reverse-outline$$', h: mouse}
   NUMBER:
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '`', s: '~'}
   - {t: '[', s: '{'}
   - '7'
   - '8'
